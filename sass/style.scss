@@ -1,0 +1,70 @@
+$grey: #eeeeee;
+
+$light: white;
+$dark: #a63f03;
+$primary: #d9c3b0;
+$secondary: #f2b950;
+$danger: black;
+
+$navbar-light-color: $danger;
+$navbar-light-hover-color: $dark;
+$nav-link-font-size: 20px;
+$link-hover-color: $danger;
+$font-family-base: "Lato", sans-serif;
+$font-size-base: 1.1rem;
+
+@import "partials/custom";
+@import "partials/nav";
+@import "partials/footer";
+@import "partials/typography";
+@import "partials/layout";
+@import "partials/pages/home";
+@import "partials/pages/products";
+@import "partials/forms";
+@import "partials/pages/product-detail";
+@import "partials/loading";
+@import "partials/pages/cart";
+
+@import "../bootstrap-scss/functions";
+@import "../bootstrap-scss/variables";
+@import "../bootstrap-scss/mixins";
+@import "../bootstrap-scss/utilities";
+
+// Layout & components
+@import "../bootstrap-scss/root";
+@import "../bootstrap-scss/reboot";
+@import "../bootstrap-scss/type";
+@import "../bootstrap-scss/images";
+@import "../bootstrap-scss/containers";
+@import "../bootstrap-scss/grid";
+@import "../bootstrap-scss/tables";
+@import "../bootstrap-scss/forms";
+@import "../bootstrap-scss/buttons";
+@import "../bootstrap-scss/transitions";
+@import "../bootstrap-scss/dropdown";
+@import "../bootstrap-scss/button-group";
+@import "../bootstrap-scss/nav";
+@import "../bootstrap-scss/navbar";
+@import "../bootstrap-scss/card";
+@import "../bootstrap-scss/accordion";
+@import "../bootstrap-scss/breadcrumb";
+@import "../bootstrap-scss/pagination";
+@import "../bootstrap-scss/badge";
+@import "../bootstrap-scss/alert";
+@import "../bootstrap-scss/progress";
+@import "../bootstrap-scss/list-group";
+@import "../bootstrap-scss/close";
+@import "../bootstrap-scss/toasts";
+@import "../bootstrap-scss/modal";
+@import "../bootstrap-scss/tooltip";
+@import "../bootstrap-scss/popover";
+@import "../bootstrap-scss/carousel";
+@import "../bootstrap-scss/spinners";
+@import "../bootstrap-scss/offcanvas";
+@import "../bootstrap-scss/placeholders";
+
+// Helpers
+@import "../bootstrap-scss/helpers";
+
+// Utilities
+@import "../bootstrap-scss/utilities/api";

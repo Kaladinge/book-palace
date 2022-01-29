@@ -1,0 +1,54 @@
+.cart {
+  &__column {
+    position: relative;
+  }
+
+  &__link {
+    color: $secondary;
+  }
+
+  &__link:hover {
+    color: black;
+  }
+
+  &__image {
+    max-width: 80%;
+  }
+
+  &__price {
+    @media (min-width: 1000px) {
+      position: absolute;
+      right: 2px;
+      bottom: 2px;
+    }
+  }
+}
+
+.price-total-container {
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+  @media (max-width: 1000px) {
+    border-top: 1px solid black;
+  }
+}
+
+.sticky-container {
+  @media (max-width: 1000px) {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.price-total__info {
+  padding: 20px;
+  width: 300px;
+  font-weight: 600;
+}
+
+main {
+  position: relative;
+}

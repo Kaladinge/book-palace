@@ -1,0 +1,17 @@
+.search-container {
+  margin: 40px 0;
+}
+
+#book-search {
+  padding: 10px;
+  width: 70%;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
+#book-search:focus {
+  border: 2px solid $secondary;
+  outline: none;
+}

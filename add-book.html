@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Page for adding another book entry to Book Palace">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coda&family=Lato&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+  <title>Book palace | Add Book</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+    <main>
+      <div class="main-header"></div>
+      <div class="container">
+        <form class="form">
+          <div class="mb-3">
+            <label for="title" class="form-label">Book title <span class="form__required">*</span></label>
+            <input type="text" name="title" class="form-control" id="title">
+            <div class="error" id="title__error">Please provide a title</div>
+          </div>
+          <div class="mb-3">
+              <label for="featured" class="form-label form-label--featured">Featured</label>
+              <label class="switch">
+                <input type="checkbox" name="featured" id="featured">
+                <span class="slider round"></span>
+              </label>
+          </div>
+          <div class="mb-3">
+            <label for="author" class="form-label">Author (min. 3 characters) <span class="form__required">*</span></label>
+            <input type="text" name="author" class="form-control" id="author">
+            <div class="error" id="author__error">Please provide an author</div>
+          </div>
+          <div class="mb-3">
+            <label for="price" class="form-label">Price <span class="form__required">*</span></label>
+            <input type="text" name="price" class="form-control" id="price">
+            <div class="error" id="price__error">Please provide a price</div>
+            <div class="error" id="price__error2">Price must be a number</div>
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label">Description (min. 20 characters) <span class="form__required">*</span></label>
+            <textarea class="form-control" name="description" id="description" rows="6"></textarea>
+            <div class="error" id="description__error">Please provide a description</div>
+          </div>
+          <div class="mb-3">
+            <label for="image" class="form-label form-label--image">Book Cover Image</label>
+            <input type="file" name="image" class="files hidden-input" id="files"/>
+            <label for="files" id="image">
+              <div><i class="fas fa-plus-square"></i></div>
+              <img src="images/no-image-logo.png" id="output" />
+            </label>
+            <input type="text" name="ref" value="products" class="hidden-input" />
+            <input type="text" name="refId" id="refId" class="hidden-input" />
+            <input type="text" name="field" value="image" class="hidden-input" />
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Add Book</button>
+          <div class="form__message-container mt-2"></div>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer bg-dark">
+    <div>Book Palace 2021</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous">
+  </script>
+  <script src="add-book.js" type="module"></script>
+</body>
+
+</html>

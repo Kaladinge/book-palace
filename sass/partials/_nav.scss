@@ -1,0 +1,42 @@
+#desktop-logo {
+  width: 250px;
+}
+
+#mobile-logo {
+  width: 75px;
+}
+
+.nav-link {
+  color: black;
+
+  &__cartcircle {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: $secondary;
+    text-align: center;
+  }
+
+  &__cartnumber {
+    font-size: 20px;
+  }
+}
+
+.fa-user,
+.fa-shopping-cart {
+  color: black;
+  font-size: 25px;
+  position: relative;
+}
+
+.fa-shopping-cart:hover,
+.fa-user:hover {
+  color: $dark;
+}
+
+#active {
+  color: $dark;
+}

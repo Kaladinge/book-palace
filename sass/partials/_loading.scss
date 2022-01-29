@@ -1,0 +1,67 @@
+.loading {
+  text-align: center;
+  padding-top: 300px;
+
+  span {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    opacity: 0;
+  }
+
+  &__letter {
+    animation-name: drop-down;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  &__letter1 {
+    animation-delay: 1.3s;
+  }
+
+  &__letter2 {
+    animation-delay: 1.4s;
+  }
+
+  &__letter3 {
+    animation-delay: 1.5s;
+  }
+
+  &__letter4 {
+    animation-delay: 1.6s;
+  }
+
+  &__letter5 {
+    animation-delay: 1.7s;
+  }
+
+  &__letter6 {
+    animation-delay: 1.8s;
+  }
+
+  &__letter7 {
+    animation-delay: 1.9s;
+  }
+}
+
+@keyframes drop-down {
+  10% {
+    opacity: 0.5;
+  }
+  20% {
+    opacity: 1;
+    top: 20px;
+  }
+  80% {
+    opacity: 1;
+    top: 20px;
+  }
+  90% {
+    opacity: 0.5s;
+  }
+  100% {
+    opacity: 0;
+    top: 40px;
+  }
+}
