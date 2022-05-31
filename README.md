@@ -14,9 +14,9 @@ of an API that is publicly hosted.
 
 For the customer possible actions are:
 
-- Using the Get method
--    to display all entries from the API
-  -  Display single entries with the id retrieved from the params
+- Using the Get method to:
+  1. to display all entries from the API
+  2. Display single entries with the id retrieved from the params
 Toggle books in and out of vart  and display these on a separate page
 
 On the admin-side possible actions are:
