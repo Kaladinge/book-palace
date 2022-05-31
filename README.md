@@ -9,6 +9,7 @@ A simple overview of the use/purpose of the project.
 ## Description
 
 Add a more detailed description of what your project entails and set out to do.
+A fully responsive model of an e-commerce site focused on selling books. The site has a 
 
 You can add some bullet points if you'd like to:
 
