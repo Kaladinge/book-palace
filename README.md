@@ -8,8 +8,22 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-A fully responsive model of an e-commerce site focused on selling books. The site has a 
+A fully responsive mode of an e-commerce site for selling books. There is a customer-facing and an admin section. The project make use
+of an API that is publicly hosted.
+
+
+For the customer possible actions are:
+
+Using the Get method
+-    to display all entries from the API
+  -  Display single entries with the id retrieved from the params
+Toggle books in and out of vart  and display these on a separate page
+
+On the admin-side possible actions are:
+Using the Post method to add new entries to the Api
+Using the PUT method to edit properties of  existing entries
+Using the delete method to delete existing entries
+
 
 You can add some bullet points if you'd like to:
 
