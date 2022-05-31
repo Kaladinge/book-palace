@@ -15,14 +15,15 @@ of an API that is publicly hosted.
 For the customer possible actions are:
 
 - Using the Get method to:
-  1. to display all entries from the API
-  2. Display single entries with the id retrieved from the params
-Toggle books in and out of vart  and display these on a separate page
+  1. display all entries from the API
+  2. display single entries with the id retrieved from the URL parameter
 
-On the admin-side possible actions are:
-Using the Post method to add new entries to the Api
-Using the PUT method to edit properties of  existing entries
-Using the delete method to delete existing entries
+- Toggle books in and out of cart and display these on a separate page
+
+For the admin possible actions are:
+- Using the Post method to add new entries
+- Using the PUT method to edit properties of  existing entries
+- Using the delete method to delete existing entries
 
 
 You can add some bullet points if you'd like to:
@@ -33,10 +34,11 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+Tech stacks include:
 
-- [React.js](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com)
+- [Strapi](https://](https://strapi.io/) (as a headless CMS)
+- [Heroku](https://id.heroku.com/)
 
 ## Getting Started
 
@@ -47,14 +49,16 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:Kaladinge/book-palace.git
 ```
 
-2. Install the dependencies:
+2. Install extension:
 
-```
-npm install
-```
+The below method is an example of how to run the app locally, but feel free to use any local server for this.
+
+- Use Visual Studio Code and install the "Live Server" extension by Ritwick Dey. 
+- Enable the extension
+- Right click on the index.html file and choose "" to run the app.
 
 ### Running
 
