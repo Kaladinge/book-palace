@@ -60,7 +60,22 @@ Right click on the index.html file and choose "Open with Live Server" and the fi
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+To make comments and suggestions make sure to open a pull request by the following steps:
+
+1. From the repo page, click on the **Fork** button in the top-right corner.
+2. Clone the repo as described above (***Installing***).
+3. Create a new branch with the following command:
+   ```bash
+    git checkout -b new_branch
+    ```
+4. Create a new remote for the upstream repo with the command:
+   ```bash
+    git remote add upstream https://github.com/<original reponame>/demo
+    ```
+    where original reponame refers to the original repo you created your fork from.
+5. Make changes and push it to the new branch
+6. Once changes has been done click on the **Compare & Pull request** button on your repo.
+7. Now click on the **Create Pull request** button that appear. 
 
 
 ## Contact
